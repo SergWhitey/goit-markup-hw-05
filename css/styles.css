@@ -43,8 +43,7 @@ img {
 /*=============== header =============== */
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -128,7 +127,7 @@ img {
 /*=============== section 1 ===============*/
 
 .solution {
-  padding: 188px 0 292px 0;
+  padding: 188px 0;
   background-color: #2e2f42;
 }
 
@@ -172,8 +171,11 @@ img {
   padding-top: 120px;
 }
 
-.visually-hidden {
+/* .about-title {
   display: none;
+} */
+
+.visually-hidden {
 }
 
 .about-list {

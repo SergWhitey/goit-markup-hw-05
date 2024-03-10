@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Webstudio</title>
-    <link rel="stylesheet" href="./css/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -54,15 +54,13 @@
     <main>
       <section class="solution">
         <div class="container">
-          <div class="title-wrap">
             <h1 class="solution-title">Effective Solutions for Your Business</h1>
             <button type="button" class="solution-btn">Order Service</button>
-          </div>
         </div>
       </section>
       <section class="about">
         <div class="container">
-          <!-- <h2 class="about-title">About us</h2> -->
+          <h2 class="visually-hidden">About us</h2>
           <ul class="about-list">
             <li class="about-list-item">
               <h3 class="about-list-title">Strategy</h3>
@@ -107,8 +105,10 @@
                 height="260"
                 alt="smiling man"
               />
-              <h3 class="team-list-subtitle">Mark Guerrero</h3>
-              <p class="team-list-text">Product Designer</p>
+              <div class="team-container">
+                <h3 class="team-list-subtitle">Mark Guerrero</h3>
+                <p class="team-list-text">Product Designer</p>
+              </div>
             </li>
             <li class="team-list-item">
               <img
@@ -118,8 +118,10 @@
                 height="260"
                 alt="smiling man"
               />
-              <h3 class="team-list-subtitle">Tom Ford</h3>
-              <p class="team-list-text">Frontend Developer</p>
+              <div class="team-container">
+                <h3 class="team-list-subtitle">Tom Ford</h3>
+                <p class="team-list-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-list-item">
               <img
@@ -129,8 +131,10 @@
                 height="260"
                 alt="smiling woman"
               />
-              <h3 class="team-list-subtitle">Camila Garcia</h3>
-              <p class="team-list-text">Marketing</p>
+              <div class="team-container">
+                <h3 class="team-list-subtitle">Camila Garcia</h3>
+                <p class="team-list-text">Marketing</p>
+              </div>
             </li>
             <li class="team-list-item">
               <img
@@ -140,8 +144,10 @@
                 height="260"
                 alt="smiling man"
               />
-              <h3 class="team-list-subtitle">Daniel Wilson</h3>
-              <p class="team-list-text">UI Designer</p>
+              <div class="team-container">
+                <h3 class="team-list-subtitle">Daniel Wilson</h3>
+                <p class="team-list-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -158,8 +164,10 @@
                 height="300"
                 alt="Banking App"
               />
-              <h3 class="portfolio-list-subtitle">Banking App</h3>
-              <p class="portfolio-list-text">App</p>
+             <div class="portfolio-container">
+                <h3 class="portfolio-list-subtitle">Banking App</h3>
+                <p class="portfolio-list-text">App</p>
+             </div>
             </li>
             <li class="portfolio-list-item">
               <img
@@ -169,8 +177,10 @@
                 height="300"
                 alt="Cashless Payment"
               />
-              <h3 class="portfolio-list-subtitle">Cashless Payment</h3>
-              <p class="portfolio-list-text">Marketing</p>
+              <div class="portfolio-container">
+                <h3 class="portfolio-list-subtitle">Cashless Payment</h3>
+                <p class="portfolio-list-text">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-list-item">
               <img
@@ -180,8 +190,10 @@
                 height="300"
                 alt="Meditation App"
               />
-              <h3 class="portfolio-list-subtitle">Meditation App</h3>
-              <p class="portfolio-list-text">App</p>
+              <div class="portfolio-container">
+                <h3 class="portfolio-list-subtitle">Meditation App</h3>
+                <p class="portfolio-list-text">App</p>
+              </div>
             </li>
             <li class="portfolio-list-item">
               <img
@@ -191,8 +203,10 @@
                 height="300"
                 alt="Taxi Service"
               />
+              <div class="portfolio-container">
               <h3 class="portfolio-list-subtitle">Taxi Service</h3>
-              <p class="portfolio-list-text">Marketing</p>
+                <p class="portfolio-list-text">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-list-item">
               <img
@@ -202,8 +216,10 @@
                 height="300"
                 alt="Screen Illustrations"
               />
-              <h3 class="portfolio-list-subtitle">Screen Illustrations</h3>
-              <p class="portfolio-list-text">Design</p>
+              <div class="portfolio-container">
+                <h3 class="portfolio-list-subtitle">Screen Illustrations</h3>
+                <p class="portfolio-list-text">Design</p>
+              </div>
             </li>
             <li class="portfolio-list-item">
               <img
@@ -213,8 +229,10 @@
                 height="300"
                 alt="Online Courses"
               />
-              <h3 class="portfolio-list-subtitle">Online Courses</h3>
-              <p class="portfolio-list-text">Marketing</p>
+              <div class="portfolio-container">
+                <h3 class="portfolio-list-subtitle">Online Courses</h3>
+                <p class="portfolio-list-text">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -222,7 +240,6 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <div class="footer-wrap">
           <a class="footer-link-blue" href="./index.html"
             >Web<span class="footer-link">Studio</span></a
           >
@@ -230,7 +247,6 @@
             Increase the flow of customers and sales for your business with digital
             marketing & growth solutions.
           </p>
-        </div>
       </div>
     </footer>
   </body>

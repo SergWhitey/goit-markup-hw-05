@@ -320,6 +320,7 @@ height: 112px;
 .team-icon-ul {
   display: flex;
   justify-content: center;
+  padding: 32px 0;
 }
 
 

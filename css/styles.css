@@ -117,10 +117,6 @@ img {
   background-color: #404bbf;
 }
 
-.header-menu-link:hover::after {
-  /* background-color: #404bbf; */
-}
-
 .address {
   font-style: normal;
 }
@@ -237,11 +233,11 @@ height: 112px;
 }
 
 .about-list-icon {
-  fill: transparent;
- margin-top: 24px;
- margin-left: 100px;
- margin-right: 100px;
- margin-bottom: 24px;
+fill: transparent;
+margin-top: 24px;
+margin-left: 100px;
+margin-right: 100px;
+margin-bottom: 24px;
 }
 
 .about-list-title {
@@ -295,7 +291,7 @@ height: 112px;
 }
 
 .team-container {
-  padding-top: 32px 0;
+  padding-top: 32px;
 }
 
 .team-list-subtitle {
@@ -320,7 +316,7 @@ height: 112px;
 .team-icon-ul {
   display: flex;
   justify-content: center;
-  padding: 32px 0;
+  /* padding: 32px 0; */
 }
 
 

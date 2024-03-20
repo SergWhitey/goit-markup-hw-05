@@ -48,17 +48,6 @@ img {
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.header-menu-link:hover::after {
-  content: '';
-  border-radius: 2px;
-  width: 100%;
-  height: 4px;
-  background-color: #404bbf;
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-}
-
 .header-container {
   display: flex;
 }
@@ -100,7 +89,6 @@ img {
 
 .header-menu-item {
   color: #404bbf;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-menu-link {
@@ -108,14 +96,26 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #404bbf;
   padding: 24px 0;
   position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-menu-link:hover,
 .header-menu-link:focus {
   color: #404bbf;
+}
+
+.header-menu-link:hover::after {
+  content: '';
+  border-radius: 2px;
+  width: 100%;
+  height: 4px;
+  background-color: #404bbf;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
 }
 
 .address {
@@ -292,7 +292,7 @@ height: 112px;
 }
 
 .team-container {
-  padding-top: 32px;
+  padding-top: 32px 0;
 }
 
 .team-list-subtitle {
@@ -385,6 +385,7 @@ cursor: pointer;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .portfolio-list-item {
@@ -429,7 +430,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
-padding: 40px 32px;
+padding: 40px 32px 40px 32px;
 background-color: #4d5ae5;
 height: 100%;
 padding: 40px 32px;
@@ -445,7 +446,6 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #434455;
   margin-bottom: 32px;
 }
-
 /*=============== footer ===============*/
 
 .footer {
@@ -524,10 +524,14 @@ margin-bottom: 16px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-icon-link:hover,
-.footer-icon-link:focus {
+.footer-icon-link:hover {
 background-color:#31d0aa;
 cursor: pointer;
+}
+
+.footer-icon-link:focus {
+  background-color:#31d0aa;
+  cursor: pointer;
 }
 
 .foot-container{

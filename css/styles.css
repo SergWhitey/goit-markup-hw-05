@@ -312,16 +312,9 @@ margin-bottom: 24px;
   color: #434455;
 }
 
-
-.team-icon-ul {
-  display: flex;
-  justify-content: center;
-  /* padding: 32px 0; */
-}
-
-
 .team-icon {
 display: flex;
+justify-content: center;
 gap: 24px;
 }
 

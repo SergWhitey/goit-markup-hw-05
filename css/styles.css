@@ -550,7 +550,7 @@ margin-left: 80px;
 
 .footer-form {
   display: flex;
-  gap 24px;
+  gap: 24px;
 }
 
 .footer-label {
@@ -627,7 +627,6 @@ align-items: center;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  padding: 72px 24px 24px 24px;
   /* display: flex;
   align-items: center;
   justify-content: center; */
@@ -645,6 +644,7 @@ align-items: center;
   min-height: 584px;
   background: #fcfcfc;
   border-radius: 4px;
+  padding: 72px 24px 24px 24px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -775,7 +775,6 @@ margin-bottom: 4px;
 }
 
 .modal-field {
-  margin-bottom: 24px;
 }
 
 .check-text{
@@ -787,7 +786,7 @@ margin-bottom: 4px;
   color: #8e8f99;
 }
 
-.check-span {
+.modal-check-span {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
   align-items: center;

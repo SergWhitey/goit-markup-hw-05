@@ -548,47 +548,62 @@ img {
 margin-left: 80px;
 }
 
-.footer-subscribe-flex {
+.footer-form {
   display: flex;
+  gap 24px
 }
 
 .footer-subscribe-text {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: #ffffff;
   max-width: 264px;
   margin-bottom: 16px;
 }
 
 .footer-input {
-  border: 1px solid #fff;
+  border: 1px solid #ffffff;
 border-radius: 4px;
 width: 264px;
 height: 40px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 padding-left: 16px;
 margin-right: 24px;
-background: #2e2f42;
+background-color: transparent;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+color: #ffffff;
 }
 
 .footer-input::placeholder {
-  color: #fff;
+  color: #ffffff;
 }
 
 .btn-subscribe {
   border: none;
   border-radius: 4px;
 padding: 8px 24px;
-width: 165px;
+min-width: 165px;
 height: 40px;
 background-color: #4d5ae5;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 text-align: center;
-color: #fff;
+color: #ffffff;
+cursor: pointer;
 display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.btn-subscribe:hover {
+  background: #404bbf;
 }
 
 .footer-btn-subscribe {

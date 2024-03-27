@@ -466,11 +466,15 @@
         </div>
         <div class="footer-subscribe">
           <p class="footer-subscribe-text">Subscribe</p>
-          <form class="footer-form" action="">
-            <label
-              ><input class="footer-input" type="email" placeholder="E-mail"
+          <form class="footer-form">
+            <label class="footer-label"
+              ><input
+                class="footer-input"
+                name="footer-email"
+                type="email"
+                placeholder="E-mail"
             /></label>
-            <button class="btn-subscribe">
+            <button class="btn-subscribe" type="submit">
               Subscribe
               <svg class="footer-btn-subscribe" width="24" height="24">
                 <use href="./images/icons.svg#icon-Frame"></use>
@@ -534,7 +538,7 @@
               </svg>
             </div>
           </div>
-          <div class="modal-field">
+          <div class="modal-field modal-fil">
             <label for="user-comment" class="modal-label">Comment</label>
             <textarea
               name="user-comment"

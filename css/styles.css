@@ -695,7 +695,6 @@ fill: #fff;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-top: 24px;
   margin-bottom: 16px;
   width: 360px;
 }
@@ -843,7 +842,6 @@ margin-bottom: 4px;
   background-color: #4d5ae5;
   margin: 0 auto;
   margin-top: 24px;
-  margin-bottom: 32px;
 }
 
 .modal-btn-send:hover,
